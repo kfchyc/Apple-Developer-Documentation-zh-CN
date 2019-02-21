@@ -48,7 +48,9 @@ Core Data大大减少了为支持模型层而编写的代码量。这主要是�
 
 ### 第一步
 
- ![](Core Data - 机翻.assets/file.png)文章 将Core Data作为模型层
+![icon](Core Data - 机翻.assets/file-0753545.png)
+
+将Core Data作为模型层
 
 了解Core Data如何减少开发和访问应用模型层所需的代码量。
 
