@@ -65,11 +65,15 @@ class NSManagedObject
 
 Core Data检索应用程序使用的持久数据。
 
+ [^Class]
+
 ```
 class NSFetchRequest
 ```
 
 用于从持久性存储中检索数据的搜索条件的描述。
+
+ [^Class]
 
 ```
 class NSAsynchronousFetchRequest
@@ -77,11 +81,15 @@ class NSAsynchronousFetchRequest
 
 一种获取请求，它以异步方式检索结果并支持进度通知。
 
+ [^Class]
+
 ```
 class NSAsynchronousFetchResult
 ```
 
 一个获取结果对象，它包含来自执行的异步获取请求的响应。
+
+ [^Class]
 
 ```
 class NSFetchedResultsController
@@ -93,11 +101,15 @@ class NSFetchedResultsController
 
 Core Data堆栈介于应用程序中的对象和外部数据存储之间。它处理与外部数据存储的所有交互，以便您的应用程序可以专注于其业务逻辑。
 
+ [^Class]
+
 ```
 class NSPersistentContainer
 ```
 
 在应用程序中封装Core Data堆栈的容器。
+
+ [^Class]
 
 ```
 class NSManagedObjectContext
@@ -105,11 +117,15 @@ class NSManagedObjectContext
 
 表示用于获取，创建和保存托管对象的单个对象空间或便笺簿的对象。
 
+ [^Class]
+
 ```
 class NSPersistentStoreCoordinator
 ```
 
 一种协调器，它将持久性存储与模型（或模型的配置）相关联，并在持久性存储和托管对象上下文之间进行调解。
+
+ [^Class]
 
 ```
 class NSManagedObjectModel
