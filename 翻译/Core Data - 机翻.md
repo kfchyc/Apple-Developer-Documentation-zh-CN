@@ -117,7 +117,7 @@ class NSManagedObjectModel
 
 描述模式的对象 - 您在应用程序中使用的实体集合（数据模型）。
 
-### Data Migration
+### 数据迁移
 
 Core Data具有内置的数据迁移工具，可帮助您使用当前数据模型保持应用程序数据的最新状态。
 
