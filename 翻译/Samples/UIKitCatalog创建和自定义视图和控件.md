@@ -53,7 +53,7 @@ SDKs
 
 voiceover 和其他系统辅助功能技术使用视图和控件提供的信息来帮助所有用户浏览您的内容。uikit 视图包括默认的辅助功能支持, 但您可以通过提供自定义辅助功能信息来改善用户体验。
 
-在此 uikitecatelatel 示例中, 多个视图控制器配置其关联视图的`accessibilityType`  和`accessibilityLabel`属性。选取器视图列没有标签, 因此选取器视图要求其委托提供相应的辅助功能信息:
+在此 UIKitCatalog示例中, 多个视图控制器配置其关联视图的`accessibilityType`  和`accessibilityLabel`属性。选取器视图列没有标签, 因此选取器视图要求其委托提供相应的辅助功能信息:
 
 ```swift
 func pickerView(_ pickerView: UIPickerView, accessibilityLabelForComponent component: Int) -> String? {
